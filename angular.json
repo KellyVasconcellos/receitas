@@ -30,7 +30,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "C:/Projetos/SiteReceitas/receitas/node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []
           },
