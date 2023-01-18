@@ -39,9 +39,16 @@
   .background {
     padding: 0px 30px;
   }
+  .cards {
+    justify-content: center;
+    align-items: center;
+  }
 }
 @media only screen and (max-width: 425px) {
+  .cards {
+    margin: 0px;
 
+  }
 }
 
 
