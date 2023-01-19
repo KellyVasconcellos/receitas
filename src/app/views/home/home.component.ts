@@ -9,9 +9,10 @@ import { ReceitasService } from 'src/app/services/receitas.service';
 })
 export class HomeComponent implements OnInit{
 
-  constructor(private receitasServie: ReceitasService) {
+  menuBox: Array<IReceitas> = [];
 
-  }
+  constructor(private receitasServie: ReceitasService) {}
+
   ngOnInit(): void {
     this.getReceitas()
   }
@@ -19,7 +20,8 @@ export class HomeComponent implements OnInit{
   getReceitas(): void{
     this.receitasServie.getReceitas()
       .subscribe((response: Array<IReceitas>) => {
-        console.log(response)
+
+        this.menuBox = response;
       })
   }
 

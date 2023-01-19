@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-menu-box',
@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./menu-box.component.scss']
 })
 export class MenuBoxComponent {
+
+  @Input() icone = '';
+  @Input() nome = '';
+  @Input() resumo = '';
 
 }

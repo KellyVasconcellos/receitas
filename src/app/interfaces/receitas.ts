@@ -7,6 +7,7 @@ export interface IReceitas {
   rendimento: string,
   avaliacao: number,
   resumo: string,
+  icone: string,
   ingredientes: Array<IIngredientes>,
   modo_preparo: Array<IIngredientes>
 

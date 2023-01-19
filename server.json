@@ -6,6 +6,7 @@
             "tempo_de_preparo": "100 min",
             "rendimento": "15 Porções",
             "avaliacao": 5,
+            "icone": "receita01"
             "resumo": "Isso pode parecer uma sugestão óbvia, mas comer suas refeições em intervalos regulares e espaçados",
             "ingredientes": [
                 {
@@ -92,6 +93,7 @@
             "tempo_de_preparo": "2 horas 15 mins",
             "rendimento": "10 Porções",
             "avaliacao": 5,
+            "icone": "receita02",
             "resumo": "Isso pode parecer uma sugestão óbvia, mas comer suas refeições em intervalos regulares e espaçados",
             "ingredientes": [
                 {
@@ -191,6 +193,7 @@
             "tempo_de_preparo": "60 min",
             "rendimento": "12 Porções",
             "avaliacao": 5,
+            "icone": "receita03",
             "resumo": "Isso pode parecer uma sugestão óbvia, mas comer suas refeições em intervalos regulares e espaçados",
             "ingredientes": [
                 {
@@ -229,6 +232,7 @@
             "tempo_de_preparo": "120 min",
             "rendimento": "10 Porções",
             "avaliacao": 5,
+            "icone": "receita04",
             "resumo": "Isso pode parecer uma sugestão óbvia, mas comer suas refeições em intervalos regulares e espaçados",
             "ingredientes": [
                 {
