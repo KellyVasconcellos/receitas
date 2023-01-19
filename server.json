@@ -1,0 +1,281 @@
+{
+    "receita": [
+        {
+            "id": 1,
+            "nome": "Bolo de Ferrero Rocher",
+            "tempo_de_preparo": "100 min",
+            "rendimento": "15 Porções",
+            "avaliacao": 5,
+            "resumo": "Isso pode parecer uma sugestão óbvia, mas comer suas refeições em intervalos regulares e espaçados",
+            "ingredientes": [
+                {
+                    "categoria": "Pão de Ló de Chocolate",
+                    "itens": [
+                        "Receita para uma forma de 22 cm de diâmetro",
+                        "07 ovos",
+                        "190 g de açúcar",
+                        "170 g de farinha de trigo",
+                        "20 g de cacau em pó Garoto"
+                    ]
+                },
+                {
+                    "categoria": "Calda",
+                    "itens": [
+                        "1/2 lata de leite condensado",
+                        "Água",
+                        "Essência de baunilha a gosto ou 1 colher de algum licor de sua preferência"
+                    ]
+                },
+                {
+                    "categoria": "Cobertura",
+                    "itens": [
+                        "Chantilly a gosto",
+                        "01 lata de leite condensado",
+                        "01 vidro de leite de coco",
+                        "150 g de xerém de castanha de cajú (castanha picadinha)",
+                        "Cacau em pó ou chocolate em pó Garoto ou nestlé a gosto",
+                        "01 pote de nutella pequeno",
+                        "18 bombons Ferrero Rocher"
+                    ]
+                }
+            ],
+            "modo_preparo": [
+                {
+                    "categoria": "Pão de Ló",
+                    "itens": [
+                        "Unte apenas o fundo de uma fôrma de 22 cm de diâmetro.",
+                        "Coloque papel manteiga só no fundo.",
+                        "Não precisa enfarinhar nem untar as laterais, senão o bolo murcha depois de frio.",
+                        "Pré-aqueça o forno a 180ºC.",
+                        "Bata os ovos com o açúcar.",
+                        "Acrescente a farinha e o cacau peneirados e misture com uma espátula delicadamente.",
+                        "Asse por cerca de 40 minutos, ou até furar com um palito e ele sair seco.",
+                        "Desenforme depois de frio e corte em 3 partes na horizontal."
+
+                    ]
+                },
+                {
+                    "categoria": "Para tirar a pele das avelãs",
+                    "itens": [
+                        "Para cada 1 xícara de avelãs, use 1 xícara de água e 1 colher e 1/2 de fermento royal.",
+                        "Leve ao fogo e deixe ferver por 3 minutos.",
+                        "Escorra, coloque em uma forma e leve ao forno até torrar levemente.",
+                        "Ainda quentes, coloque em um pano de prato e esfregue até soltar a pele."
+                    ]
+                },
+                {
+                    "categoria": "Cobertura",
+                    "itens": [
+                        "Leve ao fogo o leite condensado, o leite de coco e o cacau, mexendo até ferver.",
+                        "Acrescente o xerén e misture."
+                    ]
+                },
+                {
+                    "categoria": "Montagem",
+                    "itens": [
+                        "Misture os ingredientes da calda.",
+                        "Molhe a primeira parte do bolo, coloque metade da nutella e metade das avelãs.",
+                        "Repita com a outra massa.",
+                        "Cubra com a terceira massa, molhe e cubra todo o bolo com chantilly de sua preferência.",
+                        "Coloque a cobertura com bastante cuidado, com uma colher, começando pelo centro, quando chegar nas bordas deixe escorrer.",
+                        "Coloque nutella em um saco de confeiteiro e decore ao redor do bolo na parte de baixo.",
+                        "Coloque também em cima do bolo onde vai colocar os bombons.",
+                        "Coloque os bombons em cima do bolo, no centro 3 bombons com o papel dourado.",
+                        "Deixe na geladeira até servir."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "nome": "BOLO DE MORANGOS, CHOCOLATE BRANCO E MASSA FOLHADA",
+            "tempo_de_preparo": "2 horas 15 mins",
+            "rendimento": "10 Porções",
+            "avaliacao": 5,
+            "resumo": "Isso pode parecer uma sugestão óbvia, mas comer suas refeições em intervalos regulares e espaçados",
+            "ingredientes": [
+                {
+                    "categoria": "genoise",
+                    "itens": [
+                        "02 ovos",
+                        "01 gema",
+                        "75 g de açúcar",
+                        "75 g de farinha",
+                        "15 g de manteiga derretida e fria"
+                    ]
+                },
+                {
+                    "categoria": "creme de confeiteiro",
+                    "itens": [
+                        "04 gemas",
+                        "100 g de açúcaar",
+                        "40 g de maisena",
+                        "500 ml de leite",
+                        "½ fava de baunilha (ou 10 ml de extrato de baunilha)"
+                    ]
+                },
+                {
+                    "categoria": "chantilly",
+                    "itens": [
+                        "200 ml de creme de leite fresco",
+                        "40 g de açúcar de confeiteiro",
+                        "½ fava de baunilha ou 5 ml de extrato de baunilha"
+                    ]
+                },
+                {
+                    "categoria": "recheio",
+                    "itens": [
+                        "01 pacote de massa folhada, assada e cortada em um círculo de 17 cm de diâmetro",
+                        "01 caixa de morangos picados",
+                        "01 caixa de morangos inteiros"
+                    ]
+                },
+                {
+                    "categoria": "ganache de chocolate branco",
+                    "itens": [
+                        "150 g de chocolate branco, picado",
+                        "100 g de creme de leite fresco"
+                    ]
+                }
+            ],
+            "modo_preparo": [
+                {
+                    "categoria": "genoise",
+                    "itens": [
+                        "Unte com manteiga e farinha uma forma de fundo falso com 18 cm de diâmetro.",
+                        "Pré-aqueça o forno a 180°C.",
+                        "Coloque uma panela grande com água em fogo médio para o banho-maria.",
+                        "Em uma panela menor, que não toque a água enquanto estiver no fogo, bata os ovos e o açúcar com a ajuda de um fouet até que a mistura fique esbranquiçada e morna (cerca de 50-55°C).",
+                        "Retire a mistura da panela e bata (na batedeira ou com um fouet) até triplicar de volume.",
+                        "Com a ajuda de uma espátula, adicione a farinha até que esteja encorporada. Adicione, por fim, a manteiga.",
+                        "Quando o bolo estiver frio, corte-o em três camadas de aproximadamente 1,5 cm de espessura. Reserve"
+                    ]
+                },
+                {
+                    "categoria": "creme de confeiteiro",
+                    "itens": [
+                        "Aqueça o leite com meia fava de baunilha em fogo alto até começar a ferver.",
+                        "Enquanto isso, bata em uma tigela média as gemas com o açúcar até ficar esbranquiçada. Adicione a maisena e bata até encorporar.",
+                        "Quando o leite ferver, tire-o do fogo e despeje lentamente sobre as gemas (de preferencia, despeje em três vezes o conteúdo da panela), misturando sempre para que as gemas não cozinhem.",
+                        "Volte a mistura para o fogo e cozinhe em fogo médio até que engrosse.",
+                        "Transfira para uma vasilha e cubra com papel filme, tocando o creme. Reserve até a hora de montar."
+                    ]
+                },
+                {
+                    "categoria": "chantilly",
+                    "itens": [
+                        "Bata o creme de leite até ficar em ponto de pico médio (levemente encorpado, mas não firme). Adicione o açúcar de confeiteiro e a baunilha e bata até formar picos firmes. Deixe na geladeira até a hora de usar."
+                    ]
+                },
+                {
+                    "categoria": "montagem",
+                    "itens": [
+                        "Dentro de uma forma de fundo falso de 18 cm (pode ser a mesma que você usou para assar a genoise), monte o bolo. Se sua forma for muito baixa (por exemplo, com cerca de 5 cm de altura), preencha os lados da forma com uma fita de acetato alta e prenda o acetato com fita adesiva.",
+                        "Tire o creme de confeiteiro da vasilha e com a ajuda de um fouet, bata ele em uma tigela média, para que você possa utilizá-lo no bolo.",
+                        "Comece colocando uma fatia de bolo no fundo da forma.",
+                        "Cubra com metade do creme de confeiteiro e despeje os morangos picados sobre o creme. Cubra os morangos com o resto do creme, sempre alisando com uma espátula para que o recheio fique bem retinho.",
+                        "Depois, coloque o circulo de massa folhada por cima do creme. Pressione bem para que a massa 'grude' no creme.",
+                        "Cubra a massa folhada com uma camada fina de chantilly e termine com mais uma camada de bolo.",
+                        "Coloque os morangos diretamente em cima da camada de bolo, e deixe-o na geladeira enquanto prepara a ganache. Verifique se há espaço entre a camada de bolo e o topo da sua forma (ou acetato), para ter certeza que na hora que você for despejar a ganache, ela não vaze da forma.",
+                        "Prepare a ganache. Aqueça o creme de leite até que ele esteja quase fervendo. Despeje-o por cima do chocolate branco picado e mexa com uma espátula até que derreta e se misture ao creme de leite.",
+                        "Antes que endureça, despeje a ganache em cima do bolo já frio, tomando cuidado para não cobrir completamente ou derrubar os morangos.",
+                        "Leve à geladeira por cerca de 3-4 horas.",
+                        "Retire o bolo da forma, e cubra os lados com o resto da ganache de chocolate branco. Se quiser, também pode cobrir os lados com biscoito maisena em pedaços ou o resto de massa folhada em migalhas."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "nome": "Bolo de Baunilha e chocolate",
+            "tempo_de_preparo": "60 min",
+            "rendimento": "12 Porções",
+            "avaliacao": 5,
+            "resumo": "Isso pode parecer uma sugestão óbvia, mas comer suas refeições em intervalos regulares e espaçados",
+            "ingredientes": [
+                {
+                    "categoria": "Massa",
+                    "itens": [
+                        "04 ovos em temperatura ambiente",
+                        "01 xícara de chá de leite",
+                        "2/3 xícara de chá de óleo",
+                        "1 e 1/2 xícara de chá de açúcar",
+                        "01 colher de chá de essência de baunilha",
+                        "2 e 1/2 xícaras de chá de farinha de trigo",
+                        "01 colher de sopa de fermento químico em pó - para bolos",
+                        "02 colheres de sopa de chocolate em pó"
+                    ]
+                }
+            ],
+            "modo_preparo": [
+                {
+                    "categoria": "Massa",
+                    "itens": [
+                        "No liquidificador bata por 3 minutos os ovos, o leite, o óleo, o açúcar e a essência de baunilha",
+                        "Despeje essa mistura em uma tigela e pulverize com uma peneira a farinha de trigo e o fermento químico para bolos",
+                        "Mexa com espátula ou colher de pau só até a massa ficar homogênea",
+                        "Em outra tigela separe o equivalente à 1/4 dessa massa branca e acrescente chocolate em pó para fazer a massa de chocolate",
+                        "Despeje a mistura branca na fôrma untada e enfarinhada. Agora despeje a massa de chocolate de modo a mesclar com a branca. Utilize uma forma de bolo inglês ou redonda de furo central com 25 cm de diâmetro.",
+                        "Leve para assar em forno preaquecido a 180 graus até espetar um palito no meio do bolo e esse sair seco.",
+                        "Aguarde esfriar para desenformar"
+
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "nome": "Bolo Naked de Chocolate com Morangos e Chantilly",
+            "tempo_de_preparo": "120 min",
+            "rendimento": "10 Porções",
+            "avaliacao": 5,
+            "resumo": "Isso pode parecer uma sugestão óbvia, mas comer suas refeições em intervalos regulares e espaçados",
+            "ingredientes": [
+                {
+                    "categoria": "Massa",
+                    "itens": [
+                        "150 g de chocolate 70% cacau",
+                        "130 g de manteiga sem sal ou margarina",
+                        "90 g de açúcar em pó",
+                        "06 ovos",
+                        "90 g de açúcar",
+                        "130 g de farinha",
+                        "01 colher de chá de fermento em pó"
+                    ]
+                },
+                {
+                    "categoria": "Recheio e Cobertura",
+                    "itens": [
+                        "200 g de doce de morango",
+                        "400 ml de natas",
+                        "04 colheres de sopa de açúcar em pó",
+                        "500 g de morangos lavados, sem o pé e partidos ao meio (deixar alguns inteiros e com o pé para a decoração)"
+                    ]
+                }
+            ],
+            "modo_preparo": [
+                {
+                    "categoria": "Massa",
+                    "itens": [
+                        "Partir o chocolate aos bocados e derreter em banho-maria. Deixar arrefecer sem solidificar.",
+                        "Bater a margarina com o açúcar em pó até obter um creme.",
+                        "Juntar 6 gemas uma a uma, e o chocolate derretido.",
+                        "Bater 6 claras em castelo bem firme com o açúcar e adicionar cuidadosamente à massa, alternando com a farinha peneirada com o fermento.",
+                        "Forrar o fundo de 2 formas de +/- 20 cm com papel vegetal e untar com margarina.",
+                        "Separar a massa em quantidades iguais pelas duas formas e levar a forno médio (175ºC) durante cerca de 60 minutos.",
+                        "Deixar os bolos arrefecerem e cortar, cada um, em duas camadas."
+                    ]
+                },
+                {
+                    "categoria": "Recheio e Cobertura",
+                    "itens": [
+                        "Deitar o doce num tacho e levar ao lume com 4 colheres de água até começar a levantar fervura. Deixar arrefecer um pouco e coar, para ficar só o liquido.",
+                        "Fazer um chantilly espesso com as natas e as 4 colheres de açúcar em pó.",
+                        "Colocar uma parte do bolo no prato de servir, pincelar com doce, barrar com chantilly e colocar alguns morangos. Repetir esta operação com todas as partes do bolo, até fazer as 4 camadas.",
+                        "No final coloque o resto do chantilly, sem chegar ás bordas, e decore com os morangos com pé."
+                    ]
+                }
+            ]
+        }
+    ]
+}
