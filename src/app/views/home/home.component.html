@@ -13,7 +13,8 @@
         *ngFor="let item of menuBox"
         [icone]="item.icone"
         [nome]="item.nome"
-        [resumo]="item.resumo">
+        [resumo]="item.resumo"
+        routerLink="/home/{{item.id}}">
       </app-menu-box>
     </div>
 </section>

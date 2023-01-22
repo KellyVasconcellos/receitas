@@ -18,7 +18,7 @@ export class HomeComponent implements OnInit{
   }
 
   getReceitas(): void{
-    this.receitasServie.getReceitas()
+    this.receitasServie.getAllReceitas()
       .subscribe((response: Array<IReceitas>) => {
 
         this.menuBox = response;

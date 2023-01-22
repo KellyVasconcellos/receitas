@@ -11,7 +11,11 @@ export class ReceitasService {
 
   constructor(private http: HttpClient) { }
 
-  getReceitas(){
+  getAllReceitas(){
     return this.http.get<Array<IReceitas>>(this.apiUrl);
+  }
+
+  getReceita(id: string) {
+    return this.http.get<IReceitas>(`${this.apiUrl}/${id}`)
   }
 }
