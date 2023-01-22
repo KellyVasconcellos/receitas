@@ -7,12 +7,15 @@ import { HomeComponent } from './views/home/home.component';
 import { MenuBoxComponent } from './components/menu-box/menu-box.component';
 
 import { HttpClientModule } from '@angular/common/http';
+import { ReceitaComponent } from './views/receita/receita.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    MenuBoxComponent
+    MenuBoxComponent,
+    ReceitaComponent
   ],
   imports: [
     BrowserModule,

@@ -2,11 +2,11 @@
     "receita": [
         {
             "id": 1,
-            "nome": "Bolo de Ferrero Rocher",
+            "nome": "Bolo Ferrero Rocher",
             "tempo_de_preparo": "100 min",
             "rendimento": "15 Porções",
             "avaliacao": 5,
-            "icone": "receita01"
+            "icone": "receita01",
             "resumo": "Isso pode parecer uma sugestão óbvia, mas comer suas refeições em intervalos regulares e espaçados",
             "ingredientes": [
                 {
@@ -89,7 +89,7 @@
         },
         {
             "id": 2,
-            "nome": "BOLO DE MORANGOS, CHOCOLATE BRANCO E MASSA FOLHADA",
+            "nome": "Bolo Folhado",
             "tempo_de_preparo": "2 horas 15 mins",
             "rendimento": "10 Porções",
             "avaliacao": 5,
@@ -189,7 +189,7 @@
         },
         {
             "id": 3,
-            "nome": "Bolo de Baunilha e chocolate",
+            "nome": "Bolo Baunilha",
             "tempo_de_preparo": "60 min",
             "rendimento": "12 Porções",
             "avaliacao": 5,
@@ -228,7 +228,7 @@
         },
         {
             "id": 4,
-            "nome": "Bolo Naked de Chocolate com Morangos e Chantilly",
+            "nome": "Bolo Naked Chocolate",
             "tempo_de_preparo": "120 min",
             "rendimento": "10 Porções",
             "avaliacao": 5,

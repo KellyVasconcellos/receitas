@@ -31,7 +31,7 @@
                 font-weight: bold;
                 margin-bottom: 20px;
             }
-        
+
             p {
                 font-size: 1.2rem;
                 font-family:'Open Sans', sans-serif;
@@ -48,21 +48,57 @@
         flex-wrap: wrap;
         position: absolute;
         top: 70vh;
+
+        app-menu-box {
+          display: flex;
+          align-items: stretch;
+        }
     }
 }
 
 @media only screen and (max-width: 1024px) {
     .background {
         background-size: auto;
+        background-image: url('../../../assets/img/background_1024.png');
+
+        .titulo {
+          padding-left: 100px;
+
+          .introducao {
+
+            h1 {
+
+              font-size: 4.9rem;
+
+            }
+            p {
+              font-size: 1.1rem;
+
+            }
+          }
+        }
     }
 }
 
 @media only screen and (max-width: 768px) {
     .background {
         padding: 0px 30px;
+        background-image: url('../../../assets/img/background_768_c.png');
 
         .titulo {
-            justify-content: center;
+          justify-content: center;
+          padding-left: 30px;
+
+          .introducao {
+
+            h1 {
+                font-size: 4.5rem;
+
+            }
+            p {
+                font-size: 1rem;
+            }
+          }
         }
 
         .cards {
@@ -75,15 +111,19 @@
 
 @media only screen and (max-width: 425px) {
     .background {
-        background-image: none;
+      background-image: url('../../../assets/img/background_425_c.png');
         background-color: #f3f4f6;
 
+
         .titulo {
-            
+
             .introducao {
                 width: 80%;
+                padding-left: 50px;
+
                 h1 {
-                    font-size: 3rem;
+                    font-size: 2.7rem;
+
                 }
                 p {
                     font-size: 1rem;
