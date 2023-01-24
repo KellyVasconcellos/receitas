@@ -1,6 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+
+$background: #f3f4f6;
+
 html {
-    background-color: #f3f4f6;
+    background-color: $background;
 
     h1 {
         font-family: 'Oswald', sans-serif;

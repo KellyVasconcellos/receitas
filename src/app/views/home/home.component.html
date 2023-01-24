@@ -14,7 +14,8 @@
         [icone]="item.icone"
         [nome]="item.nome"
         [resumo]="item.resumo"
-        routerLink="/home/{{item.id}}">
+        routerLink="/home/{{item.nome}}"
+        [state]="{ id: item.id }">
       </app-menu-box>
     </div>
 </section>
