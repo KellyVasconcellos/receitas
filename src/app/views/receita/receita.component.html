@@ -1,1 +1,58 @@
-<p>receita works!</p>
+<main class="container-main" *ngIf="receita">
+  <h1>{{ receita.nome | titlecase }}</h1>
+  <div class="info-uteis">
+      <div class="item">
+          <div class="div_icon">
+              <img src="assets/img/icon_time.svg">
+          </div>
+          <div class="text">
+              <p>Tempo de preparo</p>
+              <p>{{ receita.tempo_de_preparo }}</p>
+          </div>
+      </div>
+      <div class="item">
+          <div class="div_icon">
+              <img src="assets/img/icon_rendimento.svg">
+          </div>
+          <div class="text">
+              <p>Rendimento</p>
+              <p>{{ receita.rendimento }}</p>
+          </div>
+      </div>
+      <div class="item">
+          <div class="text">
+              <p>Avaliação</p>
+              <p>{{ receita.avaliacao }}</p>
+          </div>
+      </div>
+  </div>
+  <div class="info-receita">
+      <div><img src="assets/img/{{firstImage}}" alt="bolo"></div>
+      <div class="scroller">
+          <h3>Ingredientes</h3>
+          <p style="font-weight: bold; color: #212529;">Pão de Ló de Chocolate:</p>
+          <ul>
+              <li><p>Receita para uma forma de 22 cm de diâmetro</p></li>
+              <li><p>07 ovos</p></li>
+              <li><p>190 g de açúcar</p></li>
+              <li><p>170 g de farinha de trigo</p></li>
+              <li><p>20 g de cacau em pó Garoto</p></li>
+          </ul>
+      </div>
+  </div>
+
+  <div class="info-receita">
+      <div class="scroller">
+          <h3>Modo de preparo</h3>
+          <p style="font-weight: bold; color: #212529;">Pão de Ló de Chocolate:</p>
+          <ul>
+              <li><p>Receita para uma forma de 22 cm de diâmetro</p></li>
+              <li><p>07 ovos</p></li>
+              <li><p>190 g de açúcar</p></li>
+              <li><p>170 g de farinha de trigo</p></li>
+              <li><p>20 g de cacau em pó Garoto</p></li>
+          </ul>
+      </div>
+      <div><img src="assets/img/{{secondImage}}" alt="bolo"></div>
+  </div>
+</main>
