@@ -192,7 +192,7 @@
             "nome": "Bolo Baunilha",
             "tempo_de_preparo": "60 min",
             "rendimento": "12 Porções",
-            "avaliacao": 5,
+            "avaliacao": 4,
             "icone": "receita03",
             "resumo": "Isso pode parecer uma sugestão óbvia, mas comer suas refeições em intervalos regulares e espaçados",
             "ingredientes": [
@@ -231,7 +231,7 @@
             "nome": "Bolo Naked Chocolate",
             "tempo_de_preparo": "120 min",
             "rendimento": "10 Porções",
-            "avaliacao": 5,
+            "avaliacao": 4,
             "icone": "receita04",
             "resumo": "Isso pode parecer uma sugestão óbvia, mas comer suas refeições em intervalos regulares e espaçados",
             "ingredientes": [

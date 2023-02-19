@@ -84,24 +84,26 @@
           width: 412px;
           overflow-y: scroll;
           scrollbar-width: thin;
-        }
+          padding: 15px;
+          text-align: justify;
+      }
 
-        .scroller::-webkit-scrollbar-track{
-            border-radius:0;
-            background-color: #f3f4f6;
-            border-radius: 50px;
-        }
+      .scroller::-webkit-scrollbar-track{
+          border-radius:0;
+          background-color: #f3f4f6;
+          border-radius: 50px;
+      }
 
-        .scroller::-webkit-scrollbar{
-            width: 6px;
-            background-color: #f3f4f6;
-        }
+      .scroller::-webkit-scrollbar{
+          width: 6px;
+          background-color: #f3f4f6;
+      }
 
-        .scroller::-webkit-scrollbar-thumb{
-            border-radius:0;
-            background-color: #b4b4b540;
-            border-radius: 50px;
-        }
+      .scroller::-webkit-scrollbar-thumb{
+          border-radius:0;
+          background-color: #b4b4b540;
+          border-radius: 50px;
+      }
   }
 
 

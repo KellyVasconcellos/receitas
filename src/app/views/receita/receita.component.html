@@ -22,7 +22,9 @@
       <div class="item">
           <div class="text">
               <p>Avaliação</p>
-              <p>{{ receita.avaliacao }}</p>
+              <div style="display: flex;">
+                <img *ngFor="let item of stars" src="assets/img/estrela.png" width="24" height="24" alt="avaliacao">
+              </div>
           </div>
       </div>
   </div>
@@ -30,28 +32,24 @@
       <div><img src="assets/img/{{firstImage}}" alt="bolo"></div>
       <div class="scroller">
           <h3>Ingredientes</h3>
-          <p style="font-weight: bold; color: #212529;">Pão de Ló de Chocolate:</p>
-          <ul>
-              <li><p>Receita para uma forma de 22 cm de diâmetro</p></li>
-              <li><p>07 ovos</p></li>
-              <li><p>190 g de açúcar</p></li>
-              <li><p>170 g de farinha de trigo</p></li>
-              <li><p>20 g de cacau em pó Garoto</p></li>
-          </ul>
+          <div *ngFor="let grupo of receita.ingredientes">
+              <p style="font-weight: bold; color: #212529;">{{ grupo.categoria | titlecase }}</p>
+              <ul *ngFor="let itens of grupo.itens">
+                  <li><p>{{ itens }}</p></li>
+              </ul>
+          </div>
       </div>
   </div>
 
   <div class="info-receita">
       <div class="scroller">
           <h3>Modo de preparo</h3>
-          <p style="font-weight: bold; color: #212529;">Pão de Ló de Chocolate:</p>
-          <ul>
-              <li><p>Receita para uma forma de 22 cm de diâmetro</p></li>
-              <li><p>07 ovos</p></li>
-              <li><p>190 g de açúcar</p></li>
-              <li><p>170 g de farinha de trigo</p></li>
-              <li><p>20 g de cacau em pó Garoto</p></li>
-          </ul>
+          <div *ngFor="let grupo of receita.modo_preparo">
+              <p style="font-weight: bold; color: #212529;">{{ grupo.categoria | titlecase }}</p>
+              <ul *ngFor="let itens of grupo.itens">
+                  <li><p>{{ itens }}</p></li>
+              </ul>
+          </div>
       </div>
       <div><img src="assets/img/{{secondImage}}" alt="bolo"></div>
   </div>

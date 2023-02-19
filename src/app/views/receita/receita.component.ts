@@ -16,6 +16,7 @@ export class ReceitaComponent implements OnInit {
   receita!: IReceitas;
   firstImage: string = ""
   secondImage: string = ""
+  stars: Array<number> = [];
 
   constructor(
     private router: Router,
@@ -31,6 +32,7 @@ export class ReceitaComponent implements OnInit {
       .subscribe((response: IReceitas) => {
 
       this.receita = response;
+      this.stars = Array(response.avaliacao)
 
       switch (this.receita.icone) {
         case "receita01":
