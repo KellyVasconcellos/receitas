@@ -10,5 +10,4 @@ export class MenuBoxComponent {
   @Input() icone = '';
   @Input() nome = '';
   @Input() resumo = '';
-
 }

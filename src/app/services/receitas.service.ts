@@ -11,11 +11,15 @@ export class ReceitasService {
 
   constructor(private http: HttpClient) { }
 
-  getAllReceitas(){
+  getAllReceitas() {
     return this.http.get<Array<IReceitas>>(this.apiUrl);
   }
 
   getReceita(id: string) {
-    return this.http.get<IReceitas>(`${this.apiUrl}/${id}`)
+    return this.http.get<IReceitas>(`${this.apiUrl}/${id}`) 
+  }
+
+  deleteReceita(id: number) {
+    return this.http.delete<IReceitas>(`${this.apiUrl}/${id}`)
   }
 }

@@ -24,19 +24,20 @@
             display: flex;
             flex-direction: column;
             width: 60%;
-
+            
             h1 {
                 font-size: 6rem;
                 color:#bfa065;
                 font-weight: bold;
                 margin-bottom: 20px;
             }
-
+        
             p {
                 font-size: 1.2rem;
-                font-family:'Open Sans', sans-serif;
+                //font-family:'Open Sans', sans-serif;
                 color: #808080;
                 text-align: justify;
+                font-weight: 100;
             }
         }
 
@@ -50,8 +51,18 @@
         top: 70vh;
 
         app-menu-box {
-          display: flex;
-          align-items: stretch;
+            display: flex;
+            align-items: stretch;
+        }
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .background {
+        .titulo {
+            .introducao {
+                padding-right: 300px;
+            }
         }
     }
 }
@@ -59,46 +70,24 @@
 @media only screen and (max-width: 1024px) {
     .background {
         background-size: auto;
-        background-image: url('../../../assets/img/background_1024.png');
-
-        .titulo {
-          padding-left: 100px;
-
-          .introducao {
-
-            h1 {
-
-              font-size: 4.9rem;
-
-            }
-            p {
-              font-size: 1.1rem;
-
-            }
-          }
-        }
+        background-image: url('../../../assets/img/background_1024.jpeg');
     }
 }
 
 @media only screen and (max-width: 768px) {
     .background {
         padding: 0px 30px;
-        background-image: url('../../../assets/img/background_768_c.png');
+        background-image: url('../../../assets/img/background_768.jpeg');
 
         .titulo {
-          justify-content: center;
-          padding-left: 30px;
+            justify-content: center;
 
-          .introducao {
-
-            h1 {
-                font-size: 4.5rem;
-
+            .introducao {
+                padding-left: 80px;
+                h1 {
+                    font-size: 4rem;
+                }
             }
-            p {
-                font-size: 1rem;
-            }
-          }
         }
 
         .cards {
@@ -111,19 +100,16 @@
 
 @media only screen and (max-width: 425px) {
     .background {
-      background-image: url('../../../assets/img/background_425_c.png');
+        background-image: url('../../../assets/img/background_425.jpeg');
         background-color: #f3f4f6;
 
-
         .titulo {
-
+            
             .introducao {
                 width: 80%;
-                padding-left: 50px;
-
+                padding-left: 55px;
                 h1 {
-                    font-size: 2.7rem;
-
+                    font-size: 3rem;
                 }
                 p {
                     font-size: 1rem;

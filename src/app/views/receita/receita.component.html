@@ -1,56 +1,66 @@
 <main class="container-main" *ngIf="receita">
-  <h1>{{ receita.nome | titlecase }}</h1>
-  <div class="info-uteis">
-      <div class="item">
-          <div class="div_icon">
-              <img src="assets/img/icon_time.svg">
-          </div>
-          <div class="text">
-              <p>Tempo de preparo</p>
-              <p>{{ receita.tempo_de_preparo }}</p>
-          </div>
-      </div>
-      <div class="item">
-          <div class="div_icon">
-              <img src="assets/img/icon_rendimento.svg">
-          </div>
-          <div class="text">
-              <p>Rendimento</p>
-              <p>{{ receita.rendimento }}</p>
-          </div>
-      </div>
-      <div class="item">
-          <div class="text">
-              <p>Avaliação</p>
-              <div style="display: flex;">
-                <img *ngFor="let item of stars" src="assets/img/estrela.png" width="24" height="24" alt="avaliacao">
-              </div>
-          </div>
-      </div>
-  </div>
-  <div class="info-receita">
-      <div><img src="assets/img/{{firstImage}}" alt="bolo"></div>
-      <div class="scroller">
-          <h3>Ingredientes</h3>
-          <div *ngFor="let grupo of receita.ingredientes">
-              <p style="font-weight: bold; color: #212529;">{{ grupo.categoria | titlecase }}</p>
-              <ul *ngFor="let itens of grupo.itens">
-                  <li><p>{{ itens }}</p></li>
-              </ul>
-          </div>
-      </div>
-  </div>
+    <h1>{{ receita.nome | titlecase }}</h1>
+    <div class="info-uteis">
+        <div class="item">
+            <div class="div_icon">
+                <img src="assets/img/icon_time.svg">
+            </div>
+            <div class="text">
+                <p>Tempo de preparo</p>
+                <p>{{ receita.tempo_de_preparo }}</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="div_icon">
+                <img src="assets/img/icon_rendimento.svg">
+            </div>
+            <div class="text">
+                <p>Rendimento</p>
+                <p>{{ receita.rendimento }}</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="text">
+                <p>Avaliação</p>
+                <div style="display: flex;">
+                    <img *ngFor="let item of stars" src="assets/img/estrela.png" width="24" height="24" alt="avaliacao">
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="icons">
+                <a title="Editar">
+                    <img src="/assets/img/pencil-square.svg" width="20" height="20">
+                </a>
+                <a title="Remover" (click)="openModal()">
+                    <img src="/assets/img/trash-fill.svg" width="20" height="20">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="info-receita">
+        <div><img src="assets/img/{{firstImage}}" alt="bolo"></div>
+        <div class="scroller">
+            <h3>Ingredientes</h3>
+            <div *ngFor="let grupo of receita.ingredientes">
+                <p style="font-weight: bold; color: #212529;">{{ grupo.categoria | titlecase }}</p>
+                <ul *ngFor="let itens of grupo.itens">
+                    <li><p>{{ itens }}</p></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
-  <div class="info-receita">
-      <div class="scroller">
-          <h3>Modo de preparo</h3>
-          <div *ngFor="let grupo of receita.modo_preparo">
-              <p style="font-weight: bold; color: #212529;">{{ grupo.categoria | titlecase }}</p>
-              <ul *ngFor="let itens of grupo.itens">
-                  <li><p>{{ itens }}</p></li>
-              </ul>
-          </div>
-      </div>
-      <div><img src="assets/img/{{secondImage}}" alt="bolo"></div>
-  </div>
+    <div class="info-receita">
+        <div class="scroller">
+            <h3>Modo de preparo</h3>
+            <div *ngFor="let grupo of receita.modo_preparo">
+                <p style="font-weight: bold; color: #212529;">{{ grupo.categoria | titlecase }}</p>
+                <ul *ngFor="let itens of grupo.itens">
+                    <li><p>{{ itens }}</p></li>
+                </ul>
+            </div>
+        </div>
+        <div><img src="assets/img/{{secondImage}}" alt="bolo"></div>
+    </div>
 </main>

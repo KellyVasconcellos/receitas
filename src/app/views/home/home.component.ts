@@ -7,22 +7,21 @@ import { ReceitasService } from 'src/app/services/receitas.service';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent implements OnInit{
+export class HomeComponent implements OnInit {
 
   menuBox: Array<IReceitas> = [];
 
-  constructor(private receitasServie: ReceitasService) {}
+  constructor(private receitasService: ReceitasService) { }
 
   ngOnInit(): void {
     this.getReceitas()
   }
 
-  getReceitas(): void{
-    this.receitasServie.getAllReceitas()
+  getReceitas(): void {
+    this.receitasService.getAllReceitas()
       .subscribe((response: Array<IReceitas>) => {
-
+        
         this.menuBox = response;
       })
   }
-
 }

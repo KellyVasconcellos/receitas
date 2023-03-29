@@ -1,131 +1,137 @@
 .container-main {
-  background-color: #f3f4f6;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding: 50px;
-  gap: 40px;
+    background-color: #f3f4f6;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    gap: 40px;
 
-  h1 {
-      font-size: 3.5rem;
-      color:#bfa065;
-      font-weight: bold;
-  }
+    h1 {
+        font-size: 3.5rem;
+        color:#bfa065;
+        font-weight: bold;
+    }
 
-  .info-uteis {
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-      width: 50%;
-      justify-content: space-between;
-      margin-bottom: 20px;
+    .info-uteis {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        width: 50%;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        
+        .item {
+            display: flex;
+            margin-right: 20px;        
 
-      .item {
-          display: flex;
-          margin-right: 20px;
+            .text {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
 
-          .text {
-              display: flex;
-              flex-direction: column;
-              justify-content: center;
+                p {
+                    margin: 0px;
+                }
+            }
 
-              p {
-                  margin: 0px;
-              }
-          }
+            .div_icon {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 50px;
+                height: 50px;
+                border-radius: 150px;
+                background-color: #bfa065;
+                margin-right: 15px;
+    
+                img {
+                    width: 25px;
+                    height: 25px;
+                    position: relative;
+                    right: -1px;
+                }
+            }
 
-          .div_icon {
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              width: 50px;
-              height: 50px;
-              border-radius: 150px;
-              background-color: #bfa065;
-              margin-right: 15px;
+            .icons {
+                display: flex;
+                flex-direction: column;
+                cursor: pointer;
+            }
+        }
+    }
 
-              img {
-                  width: 25px;
-                  height: 25px;
-                  position: relative;
-                  right: -1px;
-              }
-          }
-      }
-  }
+    .info-receita {
+        display: flex;
+        gap: 80px;
+        margin-bottom: 40px;
+        flex-wrap: wrap;
 
-  .info-receita {
-      display: flex;
-      gap: 80px;
-      margin-bottom: 40px;
-      flex-wrap: wrap;
+        h3 {
+            font-family: 'Oswald', sans-serif !important;
+            margin-bottom: 16px;
+        }
+        ul {
+            padding: 0px;
+        }
+        ul li {
+            list-style:none; 
+        }
+        p {
+            margin-bottom: 10px;
+            color: #808080;
+        }
+        img {
+            width: 412px;
+            height: 624px;
+        }
 
-      h3 {
-          font-family: 'Oswald', sans-serif !important;
-          margin-bottom: 16px;
-      }
-      ul {
-          padding: 0px;
-      }
-      ul li {
-          list-style:none;
-      }
-      p {
-          margin-bottom: 10px;
-          color: #808080;
-      }
-      img {
-          width: 412px;
-          height: 624px;
-      }
-
-      .scroller {
-          height: 624px;
-          width: 412px;
-          overflow-y: scroll;
-          scrollbar-width: thin;
-          padding: 15px;
-          text-align: justify;
-      }
-
-      .scroller::-webkit-scrollbar-track{
-          border-radius:0;
-          background-color: #f3f4f6;
-          border-radius: 50px;
-      }
-
-      .scroller::-webkit-scrollbar{
-          width: 6px;
-          background-color: #f3f4f6;
-      }
-
-      .scroller::-webkit-scrollbar-thumb{
-          border-radius:0;
-          background-color: #b4b4b540;
-          border-radius: 50px;
-      }
-  }
+        .scroller {
+            height: 624px;
+            width: 412px;
+            overflow-y: scroll;
+            scrollbar-width: thin;
+            padding: 15px;
+            text-align: justify;
+        }
+        
+        .scroller::-webkit-scrollbar-track{
+            border-radius:0;
+            background-color: #f3f4f6;
+            border-radius: 50px;
+        }
+        
+        .scroller::-webkit-scrollbar{
+            width: 6px;
+            background-color: #f3f4f6;
+        }
+        
+        .scroller::-webkit-scrollbar-thumb{
+            border-radius:0;
+            background-color: #b4b4b540;
+            border-radius: 50px;
+        }
+    }
 
 
-
+    
 }
 
 @media only screen and (max-width: 1024px) {
- .container-main {
-      .info-uteis {
-          width: 100%;
-      }
- }
+   .container-main {
+        .info-uteis {
+            width: 100%;
+        }
+   }
 }
 
 @media only screen and (max-width: 768px) {
-  .container-main {
-      .info-receita {
-          justify-content: center;
-      }
- }
+    .container-main {
+        .info-receita {
+            justify-content: center;
+        }
+   }
 }
 
 @media only screen and (max-width: 425px) {
-
+    
 }

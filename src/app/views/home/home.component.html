@@ -9,13 +9,13 @@
         </div>
     </div>
     <div class="cards">
-      <app-menu-box
-        *ngFor="let item of menuBox"
-        [icone]="item.icone"
-        [nome]="item.nome"
-        [resumo]="item.resumo"
-        routerLink="/home/{{item.nome}}"
-        [state]="{ id: item.id }">
-      </app-menu-box>
+        <app-menu-box
+            *ngFor="let item of menuBox" 
+            [icone]="item.icone" 
+            [nome]="item.nome" 
+            [resumo]="item.resumo"
+            routerLink="/home/{{item.nome}}"
+            [state]="{ id: item.id }">
+        </app-menu-box>
     </div>
 </section>
