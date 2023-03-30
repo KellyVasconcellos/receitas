@@ -10,62 +10,58 @@ import { ReceitasService } from 'src/app/services/receitas.service';
 @Component({
   selector: 'app-receita',
   templateUrl: './receita.component.html',
-  styleUrls: ['./receita.component.scss']
+  styleUrls: ['./receita.component.scss'],
 })
 export class ReceitaComponent implements OnInit {
-
   state: any;
   receita!: IReceitas;
-  firstImage: string = ""
-  secondImage: string = ""
-  stars: Array<number> = []
+  firstImage: string = '';
+  secondImage: string = '';
+  stars: Array<number> = [];
 
   constructor(
     private router: Router,
     private receitasService: ReceitasService,
     private modalService: NgbModal
-    ) {
-      const route = this.router.getCurrentNavigation();
-      this.state = route?.extras.state;
-    }
-    
-    ngOnInit(): void {
-          
-      this.receitasService.getReceita(this.state.id)
-        .subscribe((response: IReceitas) => {
+  ) {
+    const route = this.router.getCurrentNavigation();
+    this.state = route?.extras.state;
+  }
 
-          this.receita = response;
-          this.stars = Array(response.avaliacao)
-          
-          switch (this.receita.icone) {
-            case "receita01":
-              this.firstImage = FirstImage.receita01
-              this.secondImage = SecondImage.receita01
-              break;
-            case "receita02":
-              this.firstImage = FirstImage.receita02
-              this.secondImage = SecondImage.receita02
-              break;
-            case "receita03":
-              this.firstImage = FirstImage.receita03
-              this.secondImage = SecondImage.receita03
-              break;
-            case "receita04":
-              this.firstImage = FirstImage.receita04
-              this.secondImage = SecondImage.receita04
-              break;
-            default:
-              break;
-          }
-        })
-    }
+  ngOnInit(): void {
+    // const fileInput:any = document.getElementById('fileInput');
 
-    openModal() {
-      const modalRef = this.modalService.open(ModalComponent, { centered: true });
-      modalRef.closed.subscribe(() => {
-          this.receitasService.deleteReceita(this.receita.id).subscribe(() => {
-            this.router.navigateByUrl("/home")
-          })
-      })
-    }
+    // fileInput.addEventListener('change', (e:any) => {
+    //   const file = fileInput.files[0];
+    //   const reader = new FileReader();
+
+    //   reader.addEventListener('load', () => {
+    //     // Base64 Data URL 👇
+    //     console.log(reader.result);
+    //     // let img : any = document.getElementById('img')
+    //     // img.src = reader.result
+    //   });
+
+    //   reader.readAsDataURL(file);
+    // });
+
+    this.receitasService
+      .getReceita(this.state.id)
+      .subscribe((response: IReceitas) => {
+        this.receita = response;
+        this.stars = Array(response.avaliacao);
+
+        this.firstImage = this.receita.primeiraImagem
+        this.secondImage = this.receita.segundaImagem
+      });
+  }
+
+  openModal() {
+    const modalRef = this.modalService.open(ModalComponent, { centered: true });
+    modalRef.closed.subscribe(() => {
+      this.receitasService.deleteReceita(this.receita.id).subscribe(() => {
+        this.router.navigateByUrl('/home');
+      });
+    });
+  }
 }

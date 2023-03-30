@@ -9,6 +9,8 @@ export interface IReceitas {
     resumo: string,
     icone: string,
     ingredientes: Array<IIngredientes>,
-    modo_preparo: Array<IIngredientes>
+    modo_preparo: Array<IIngredientes>,
+    primeiraImagem: string,
+    segundaImagem: string
 }
-  
+
