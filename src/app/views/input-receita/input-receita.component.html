@@ -1,1 +1,81 @@
-<p>input-receita works!</p>
+<main class="container-main">
+  <h1>Editar Receita</h1>
+  <form class="formulario">
+    <div class="campo-primeira-linha">
+      <div class="form-group grow2">
+        <label for="nome">Nome da Receita</label>
+        <input type="text" class="form-control" id="nome">
+        <small class="form-text text-muted">Campo obrigatório</small>
+      </div>
+
+      <div class="form-group grow1" >
+        <label for="tempo_de_preparo">Tempo de Preparo</label>
+        <input type="text" class="form-control" id="tempo_de_preparo">
+        <small class="form-text text-muted">Campo obrigatório</small>
+      </div>
+
+
+    </div>
+
+    <div class="campo-segunda-linha">
+      <div class="form-group grow1">
+        <label for="rendimento">Rendimento</label>
+        <input type="text" class="form-control" id="rendimento">
+        <small class="form-text text-muted">Campo obrigatório</small>
+      </div>
+
+      <div class="form-group grow1">
+        <label for="avaliacao">Avaliação</label>
+        <input type="text" class="form-control" id="avaliacao">
+        <small class="form-text text-muted">Campo obrigatório</small>
+      </div>
+
+      <div class="form-group grow1">
+        <label for="icone">Ícone</label>
+        <input type="text" class="form-control" id="icone">
+        <small class="form-text text-muted">Campo obrigatório</small>
+      </div>
+    </div>
+
+    <div class="campo-terceira-linha">
+      <div class="form-group">
+        <label for="resumo">Resumo</label>
+        <textarea class="form-control" id="resumo" rows="3"></textarea>
+        <small class="form-text text-muted">Campo obrigatório</small>
+      </div>
+    </div>
+
+    <h5>Ingredientes</h5>
+
+    <div class= "campo-quarta-linha">
+      <div class="form-group grow1">
+        <label for="ingredientes">Nome</label>
+        <input type="text" class="form-control" id="ingredientes">
+        <small class="form-text text-muted">Campo obrigatório - Digite  o nome do grupo de ingredientes, ex:"Massa", "Recheio", etc </small>
+      </div>
+
+      <div class="form-group">
+        <label for="ingredientes"> Adicione itens dos ingredientes</label>
+        <textarea class="form-control" id="ingredientes" rows="10"></textarea>
+        <small class="form-text text-muted">Campo obrigatório</small>
+      </div>
+    </div>
+
+    <h5>Modo de Preparo</h5>
+    <div  class= "campo-quinta-linha">
+      <div class="form-group grow1">
+        <label for="ingredientes">Nome</label>
+        <input type="text" class="form-control" id="ingredientes">
+        <small class="form-text text-muted">Campo obrigatório - Digite  o nome do grupo de ingredientes, ex:"Massa", "Recheio", etc </small>
+      </div>
+
+      <div class="form-group">
+        <label for="ingredientes">Descreva o modo de preparo</label>
+        <textarea class="form-control" id="ingredientes" rows="10"></textarea>
+        <small class="form-text text-muted">Campo obrigatório</small>
+      </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</main>

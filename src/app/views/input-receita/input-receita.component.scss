@@ -1,0 +1,72 @@
+.container-main {
+  background-color: #f3f4f6;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-main .formulario {
+  width: 70%;
+  font-family: 'Roboto', sans-serif;
+}
+
+small {
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color:#bfa065;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.campo-primeira-linha,.campo-segunda-linha  {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 20px 0px 20px 0px;
+}
+
+.grow2 {
+  flex-grow: 3;
+}
+
+.grow1 {
+  flex-grow: 1;
+}
+
+ul.simbolo {
+  list-style-type: circle;
+}
+
+textarea {
+  resize: none;
+}
+
+.campo-terceira-linha {
+  margin: 20px 0px 20px 0px;
+}
+
+h5 {
+  margin: 40px 0px 20px 0px;
+  text-align: center;
+}
+
+.campo-quarta-linha, .campo-quinta-linha {
+
+}
+
+.campo-quarta-linha input {
+  width: 50%;
+
+}
+
+.campo-quinta-linha input {
+  width: 50%;
+}
