@@ -1,32 +1,30 @@
 <main class="container-main">
   <h1>Editar Receita</h1>
-  <form class="formulario">
+  <form class="formulario" (ngSubmit)="cadastrar()" [formGroup]="formulario">
     <div class="campo-primeira-linha">
       <div class="form-group grow2">
         <label for="nome">Nome da Receita</label>
-        <input type="text" class="form-control" id="nome">
+        <input type="text" class="form-control" id="nome" formControlName="nome">
         <small class="form-text text-muted">Campo obrigatório</small>
       </div>
 
       <div class="form-group grow1" >
         <label for="tempo_de_preparo">Tempo de Preparo</label>
-        <input type="text" class="form-control" id="tempo_de_preparo">
+        <input type="text" class="form-control" id="tempo_de_preparo" formControlName="tempo_de_preparo">
         <small class="form-text text-muted">Campo obrigatório</small>
       </div>
-
-
     </div>
 
     <div class="campo-segunda-linha">
       <div class="form-group grow1">
         <label for="rendimento">Rendimento</label>
-        <input type="text" class="form-control" id="rendimento">
+        <input type="text" class="form-control" id="rendimento" formControlName="rendimento">
         <small class="form-text text-muted">Campo obrigatório</small>
       </div>
 
       <div class="form-group grow1">
         <label for="avaliacao">Avaliação</label>
-        <input type="text" class="form-control" id="avaliacao">
+        <input type="text" class="form-control" id="avaliacao" formControlName="avaliacao">
         <small class="form-text text-muted">Campo obrigatório</small>
       </div>
 
@@ -40,42 +38,45 @@
     <div class="campo-terceira-linha">
       <div class="form-group">
         <label for="resumo">Resumo</label>
-        <textarea class="form-control" id="resumo" rows="3"></textarea>
+        <textarea class="form-control" id="resumo" rows="3" formControlName="resumo"></textarea>
         <small class="form-text text-muted">Campo obrigatório</small>
       </div>
     </div>
 
     <h5>Ingredientes</h5>
 
-    <div class= "campo-quarta-linha">
+    <div class= "campo-quarta-linha" formGroupName="ingredientes">
       <div class="form-group grow1">
-        <label for="ingredientes">Nome</label>
-        <input type="text" class="form-control" id="ingredientes">
+        <label for="categoria1">Nome</label>
+        <input type="text" class="form-control" id="categoria1" formControlName="categoria">
         <small class="form-text text-muted">Campo obrigatório - Digite  o nome do grupo de ingredientes, ex:"Massa", "Recheio", etc </small>
       </div>
+      <br>
 
       <div class="form-group">
-        <label for="ingredientes"> Adicione itens dos ingredientes</label>
-        <textarea class="form-control" id="ingredientes" rows="10"></textarea>
+        <label for="itens1"> Adicione itens dos ingredientes</label>
+        <textarea class="form-control" id="itens1" rows="10" formControlName="itens"></textarea>
         <small class="form-text text-muted">Campo obrigatório</small>
       </div>
     </div>
 
     <h5>Modo de Preparo</h5>
-    <div  class= "campo-quinta-linha">
+    <div  class= "campo-quinta-linha" formGroupName="modo_preparo">
       <div class="form-group grow1">
-        <label for="ingredientes">Nome</label>
-        <input type="text" class="form-control" id="ingredientes">
+        <label for="categoria2">Nome</label>
+        <input type="text" class="form-control" id="categoria2" formControlName="categoria" >
         <small class="form-text text-muted">Campo obrigatório - Digite  o nome do grupo de ingredientes, ex:"Massa", "Recheio", etc </small>
       </div>
+      <br>
 
       <div class="form-group">
-        <label for="ingredientes">Descreva o modo de preparo</label>
-        <textarea class="form-control" id="ingredientes" rows="10"></textarea>
+        <label for="itens2">Descreva o modo de preparo</label>
+        <textarea class="form-control" id="itens2" rows="10"  formControlName="itens"></textarea>
         <small class="form-text text-muted">Campo obrigatório</small>
       </div>
     </div>
+    <br>
 
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-primary">Enviar</button>
   </form>
 </main>

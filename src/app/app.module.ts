@@ -10,6 +10,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ReceitaComponent } from './views/receita/receita.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { InputReceitaComponent } from './views/input-receita/input-receita.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { InputReceitaComponent } from './views/input-receita/input-receita.compo
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    NgbModule
+    NgbModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
