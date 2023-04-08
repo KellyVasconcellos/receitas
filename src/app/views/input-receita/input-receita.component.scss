@@ -58,10 +58,6 @@ h5 {
   text-align: center;
 }
 
-.campo-quarta-linha, .campo-quinta-linha {
-
-}
-
 .campo-quarta-linha input {
   width: 50%;
 
@@ -69,4 +65,35 @@ h5 {
 
 .campo-quinta-linha input {
   width: 50%;
+}
+
+.receita01 {
+  background-image: url('../../../assets/img/receita01.png');
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+  background: no-repeat;
+}
+
+.dropclass {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+
+}
+
+.botao-select button {
+  margin: 0px auto;
+  text-align: center;
+}
+
+.mb-3 {
+  gap: 10px;
+}
+
+.imagens {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
