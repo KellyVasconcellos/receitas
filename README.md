@@ -11,7 +11,7 @@
 
 ## 🔖&nbsp; Sobre
 
-O projeto **Site de Receita** é uma aplicação front-end para visualização, edição e exclusão de receita de bolo, CRUD via API REST simulado com JSON-SERVER, foi desenvolvida com o objetivo de aprimorar meus conhecimentos no framework Angular.
+O projeto **Site de Receita** é uma aplicação front-end para visualização, edição e exclusão de receitas de bolo, CRUD via API REST simulado com JSON-SERVER, foi desenvolvida com o objetivo de aprimorar meus conhecimentos no framework Angular.
 
 ---
 
